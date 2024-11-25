@@ -1,0 +1,76 @@
+body {
+    /* Sets the width of the body to 890px, limiting the conte's
+        maximum width on the page */
+    width: 890px;
+  
+    /* Centers the body content horizontally by setting equal
+        margins on both sides */
+    margin: 0 auto;
+  
+    /* Defines the font properties for the body, including:
+        Font size: 10pt
+        Line height: 1.5em (for proper spacing between Lines)
+        Font family: Helvetica, "Helvetica Neue", Arial, sans-serif
+        (fallback fonts in case the first is unavailable) */
+    font: 10pt/1.5em Helvetica, "Helvetica neue", Arial, sans-serif;
+  
+    /* Sets a light blue background color for the page */
+    background: #F0F8FF;
+}
+
+h1 {	
+font-size: 40px;    
+font-family: Arial, Helvetica, sans-serif;	
+text-align: center;	
+text-transform: uppercase;	
+color: #000000;
+}
+h3 {		
+font-size: 30px;    
+font-family: Arial, Helvetica, sans-serif;	text-align: center;	
+color: #000000;	
+}
+h4 {		
+font-size: 20px;    
+font-family: Arial, Helvetica, sans-serif;	text-align: center;	
+color: #000000;	
+}
+
+nav{     
+display: block;
+}
+
+/* Style the unordered list */
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: #191970; 
+    border-radius: 20px; 
+}
+
+/* Style individual list items */
+li {
+    float: left;
+}
+
+/* Style the links within list items */
+li a {
+    display: block; 
+    color: #FFFFFF;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+/* Style for hover state on non-active links */
+li a:hover:not(.active) {
+    background-color: #D3D3D3;
+}
+
+/* Style for the active link */
+.active {
+    background-color: #4CAF50; 
+}
+```
